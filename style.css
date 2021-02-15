@@ -1,7 +1,23 @@
 h1{
-
     color: #004346;
+    text-align: center;
 }
+
+div p{
+    width: 40%;
+}
+
+.foto{
+    width: 150px;
+    border-radius: 100%;
+    top: 10px;
+}
+
+div:nth-of-type(2){
+    text-align: right;
+    border = 500px;
+}
+
 body{
     background-color: rgb(9, 188, 139);
     font-family: Pangolin, cursive;
