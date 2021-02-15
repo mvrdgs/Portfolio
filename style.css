@@ -18,6 +18,8 @@ h1{
 }
 
 body{
-    background-color: rgb(9, 188, 139);
+    background: url(images/photo-1547628641-ec2098bb5812.jpeg) no-repeat;
+    background-size: 100%
+    ;
     font-family: Pangolin, cursive;
 }
