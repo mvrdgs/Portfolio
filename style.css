@@ -3,19 +3,18 @@ h1{
     text-align: center;
 }
 
-div p{
-    width: 40%;
+.description {
+    width: 50%;
+    margin-left: 10%;
+    display: inline-block;
+    vertical-align: 50px;    
 }
 
 .foto{
     width: 150px;
     border-radius: 100%;
-    top: 10px;
-}
-
-div:nth-of-type(2){
-    text-align: right;
-    border = 500px;
+    margin-left: 2%;
+    display: inline-block;
 }
 
 body{
