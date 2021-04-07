@@ -1,8 +1,49 @@
-h1{
-
+.title{
     color: #004346;
+    text-align: center;
+    padding: 50px;
 }
+
+.description {
+    width: 50%;
+    margin-left: 10%;
+    display: inline-block;
+    vertical-align: 50px;    
+}
+
+.foto{
+    width: 150px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 2%;
+}
+
 body{
-    background-color: rgb(9, 188, 139);
+    background: url(images/photo-1547628641-ec2098bb5812.jpeg) no-repeat;
+    background-size: 100%;
     font-family: Pangolin, cursive;
+}
+
+.skills li:hover:nth-of-type(odd){
+    -webkit-text-stroke: 1px green;
+}
+
+ol a:link, a:visited{
+    text-decoration: none;
+    background-color: blueviolet;
+    border: 1px solid black;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+ol a:hover, a:active{
+    background-color: red;
+    color: green;
+}
+
+header li{
+    list-style: none;
 }
